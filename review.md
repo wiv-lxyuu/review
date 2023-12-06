@@ -9,10 +9,10 @@ git config --global user.name "Your Name"
 
 git config --global user.email "your.email@example.com"
 
-# 줄바꿈 자동 변환을 위한 autocrlf 설정
+# 줄바꿈 자동 변환 설정
 git config --global core.autocrlf true
 
-# 줄바꿈 안전 설정을 위한 safecrlf 설정
+# 줄바꿈 안전 설정
 git config --global core.safecrlf false
 
 # 기본 편집기 설정 
