@@ -30,3 +30,5 @@ ls -al
 
 # 간단한 이름 설정(ex. oneline->lg1)
 git config --global alias.'log --oneline' lg1
+
+# 컴퓨터 꺼지기 전에 아아아아아
