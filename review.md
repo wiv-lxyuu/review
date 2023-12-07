@@ -43,9 +43,22 @@ git diff HEAD~
 ## 파일 삭제(스테이징&작업폴더)
 git rm <file_name>
 
+## 파일 삭제(스테이징)
+git rm --cached<file_name>
 
+## 파일 복구(작업폴더)
+git restore <file_name>                           
 
+## 파일 복구(스테이징 영역)
+git restore --staged <file_name>                  
 
+## 파일 복구(깃 저장소의 HEAD-작업 폴더)
+git restore --source=HEAD --worktree <file_name> 
+
+# 파일 복구(깃 저장소의 HEAD-스테이징,작업폴더)
+git restore --source=HEAD --staged --worktree <file_name> 
+
+#4. 
 ## 간단한 이름 설정(ex. oneline->lg1)
 git config --global alias.lg1 'log --oneline'
 
