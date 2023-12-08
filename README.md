@@ -26,7 +26,7 @@ pwd
 
 ## 현재 작업 디렉토리에 있는 모든 파일과 디렉토리 자세한 정보 표시
 ls -al
-#2. 파일 비교(basic/diff)
+# 2. 파일 비교(basic/diff)
 
 ## 저장소 생성
 git init basic
@@ -44,7 +44,7 @@ git diff HEAD
 ## 스테이징 영역-이전 HEAD 변경사항 비교
 git diff HEAD~
 
-#3. 파일 삭제 및 복구
+# 3. 파일 삭제 및 복구
 
 ## 파일 삭제(스테이징&작업폴더)
 git rm <file_name>
@@ -64,7 +64,7 @@ git restore --source=HEAD --worktree <file_name>
 # 파일 복구(깃 저장소의 HEAD-스테이징,작업폴더)
 git restore --source=HEAD --staged --worktree <file_name> 
 
-#4. 브랜치 관리
+# 4. 브랜치 관리
 
 ## 새로운 브랜치 생성하기
 
