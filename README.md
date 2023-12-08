@@ -81,7 +81,11 @@ git checkout -<br_name>
 git branch
 git branch -v
 
-#ETC.내가 필요한 자료 
+## 브랜치 병합
+git merge hotfix(원초적인 것)
+git merge --ff-only hotfix(fast-forward에서만 병합)
+
+# ETC.내가 필요한 자료 
 ## 간단한 이름 설정(ex. oneline->lg1)
 git config --global alias.lg1 'log --oneline'
 
