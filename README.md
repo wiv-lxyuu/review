@@ -27,7 +27,14 @@ pwd
 
 ## 현재 작업 디렉토리에 있는 모든 파일과 디렉토리 자세한 정보 표시
 ls -al
-#2. 파일 비교(diff)
+#2. 파일 비교(basic/diff)
+
+## 저장소 생성
+git init basic
+
+## 폴더 이동
+cd basic
+
 
 ## 스테이징영역 변경사항 확인
 git diff
@@ -58,8 +65,24 @@ git restore --source=HEAD --worktree <file_name>
 # 파일 복구(깃 저장소의 HEAD-스테이징,작업폴더)
 git restore --source=HEAD --staged --worktree <file_name> 
 
-#4. 
+#4. 브랜치 관리
+
+## 새로운 브랜치 생성하기
+
+## "(HEAD이동 x)
+git branch <br_name>
+
+## "(HEAD이동 I)
+git switch -c<br_name>
+
+## "(HEAD  이동 II)
+git checkout -<br_name>
+
+## 확인
+git branch
+git branch -v
+
+#ETC.내가 필요한 자료 
 ## 간단한 이름 설정(ex. oneline->lg1)
 git config --global alias.lg1 'log --oneline'
 
-# 
